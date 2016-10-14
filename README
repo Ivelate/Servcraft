@@ -1,0 +1,9 @@
+A lot of games don't have a dedicated online server, so they depend on local servers for the game to be hosted on. This means that, if you want to play with friends, either:
+
+- One of them will be forced to have their PC 24/7 on
+- You will be only able to play when your friend connects the server
+
+Both options are generally bad. This program adds a better approximation: Acting as a man-in-the-middle, it checks if there is actually a server running and, if so, it connects you to it. If it isn't, it downloads the server data from a free host webpage and auto host the server in your computer, to which people can connect. When you close the game, the server data will be uploaded to the host webpage, waiting for someone to automatically host it. It solves both possible problems: The servers are "on" 24/7 (only when somebody wants to play), and nobody has to keep their computer on permanently.
+It is written in pure java, and features non java-like characteristics like automatic software updates.
+
+Crappy code currently, and only optimized to be used for the game Terraria. It could be extended easily to any game though
